@@ -12,41 +12,41 @@
 </script>
 <form action="#" method="post">
 	<div>
-	<label id="name">Name</label><br>
-	<input type="text" name="name">
+	<label >Name</label><br>
+	<input id="name" type="text" name="name" required>
 	</div>
 	<div>
-		<lable id="email">Email</lable><br>
-		<input type="email" name="mail">
+		<lable >Email</lable><br>
+		<input id="email" type="email" name="mail" required>
 	</div>
 	<div>
-		<label for="lab" id="gender">Gender</label><br>
-		<input type="radio" name="gender">male
-		<input type="radio" name="gender">Female
-		<input type="radio" name="gender">Others
+		<label for="lab" >Gender</label><br>
+		<input id="gender" type="radio" name="gender" required>male
+		<input id="gender" type="radio" name="gender" required>Female
+		<input id="gender" type="radio" name="gender" required>Others
 	</div>
 	<div>
-		<label id="cars">Car Brands</label><br>
-		<select>
+		<label >Car Brands</label><br>
+		<select id="cars" >
 			<option>BMW</option>
 			<option>Audi</option>
 			<option>Mercedez</option>
 		</select>
 	</div>
 	<div>
-		<label id="carage">Car Age</label><br>
-		<input type="number">
+		<label >Car Age</label><br>
+		<input id="carage" type="number">
 	</div>
 	<div>
-		<label id="dop">Date Of Purchase</label><br>
-		<input type="date">
+		<label >Date Of Purchase</label><br>
+		<input id="dop" type="date">
 	</div>
 	<div>
-		<label id="password">password</label><br>
-		<input type="password">
+		<label >password</label><br>
+		<input id="password" type="password">
 	</div>
 	<div>
-		<input type="submit" value="Submit">
+		<button type="submit">Submit</button>
 	</div>
 </form>
 </body>
